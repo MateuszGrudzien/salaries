@@ -39,6 +39,7 @@ public class DataRecord {
     private BigDecimal monthlyGrossSalary;
 
     @Column(name = "currency")
+    @Enumerated(value = EnumType.STRING)
     private Currency currency;
 
     @Column(name = "company")
