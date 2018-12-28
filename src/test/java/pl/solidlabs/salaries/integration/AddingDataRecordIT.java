@@ -37,7 +37,7 @@ import static pl.solidlabs.salaries.configuration.UrlConfiguration.DATA_RECORD_U
 @Transactional
 @AutoConfigureDataJpa
 @AutoConfigureTestEntityManager
-public class AddingDataRecordIntegrationTests {
+public class AddingDataRecordIT {
 
     private static final SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd");
 
